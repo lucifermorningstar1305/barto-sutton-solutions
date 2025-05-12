@@ -9,6 +9,7 @@ Therefore total probability of picking the greedy action = $0.5 + 0.25$ = $0.75$
 
 # Exercise 2.2
 ---
+
 | t | Q(1) | Q(2) | Q(3) | Q(4) | Next Action Selected | Reward | Greedy actions       | Was the next action randomly selected?    |
 |---|------|------|------|------|----------------------|--------|----------------------|-------------------------------------------|
 | 0 | 0    | 0    | 0    | 0    | 1                    | -1     | Any of the 4 actions | Probably                                  |
@@ -21,6 +22,7 @@ Therefore total probability of picking the greedy action = $0.5 + 0.25$ = $0.75$
 
 # Exercise 2.3
 ---
+
 Let $$O = Pr(\text{optimal action selected})$$, $k=10$. 
 
 When $$\epsilon = 0.01$$, the $$Pr(O) = (1 - \epsilon) + \frac{\epsilon}{k}$$ = $$(1 - 0.01) + \frac{0.01}{10}$$ = $$0.991$$
