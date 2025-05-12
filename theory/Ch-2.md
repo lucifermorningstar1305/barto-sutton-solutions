@@ -34,7 +34,7 @@ the expected maximum of $10$ Gaussian $N(0,1)$ is $\approx 1.538$.
 x = np.random.randn(2000,10)
 exp_max = np.mean(np.max(x, axis=1))
 ```
-Let $q^*$ be the **true** value of the best arm, and (by symmetry) the average over all arms be $0$. Then each time the agent
+Let $q^{*}$ be the **true** value of the best arm, and (by symmetry) the average over all arms be ${0}$. Then each time the agent
 explores it receives $0$ in expectation and each time it exploits it gets, $q^*$ in expectation. Therefore,
 $Reward_{\inf} = (1-\epsilon) q^* + \epsilon \dot 0 = (1 - \epsilon)q^*$.
 
