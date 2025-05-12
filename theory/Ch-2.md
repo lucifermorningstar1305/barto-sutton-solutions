@@ -30,7 +30,7 @@ Thus $\epsilon=0.01$ will perform better.
 In terms of $Pr(O)$ $\epsilon=0.01$ will lead $\epsilon=0.1$ by $0.081$. 
 In terms of cumulative reward, 
 the expected maximum of $10$ Gaussian $N(0,1)$ is $\approx 1.538$.
-```{python}
+```python
 x = np.random.randn(2000,10)
 exp_max = np.mean(np.max(x, axis=1))
 ```
@@ -38,7 +38,7 @@ Let $q^*$ be the **true** value of the best arm, and (by symmetry) the average o
 explores it receives $0$ in expectation and each time it exploits it gets, $q^*$ in expectation. Therefore,
 $Reward_{\inf} = (1-\epsilon) q^* + \epsilon \dot 0 = (1 - \epsilon)q^*$.
 
-Thus when $\epsilon = 0.01$, $Reward_{\inf} \approx 0.991 \ times 1.538 \approx 1.522$ and when $\epsilon=0.1$,  $Reward_{\inf} \approx 0.91 \ times 1.538 \approx 1.384$. Therefore,
+Thus when $\epsilon = 0.01$, $Reward_{\inf} \approx 0.991 \times 1.538 \approx 1.522$ and when $\epsilon=0.1$,  $Reward_{\inf} \approx 0.91 \times 1.538 \approx 1.384$. Therefore,
 $(1.522 - 1.384) / (1.384) \times 100 \approx 10\%$ i.e, $\epsilon=0.01$ will produce $10\%$ better cumulative rewards.
 
 The code for this is also shown in the notebook.
