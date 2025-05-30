@@ -1,1 +1,1 @@
-Solution: https://www.notion.so/adityamghosh/Chapter-2-1f1f77a42e4580fc9995c15fdc1efc2f?pvs=4
+Solution: https://www.notion.so/adityamghosh/Chapter-2-1f1f77a42e4580fc9995c15fdc1efc2f?source=copy_link

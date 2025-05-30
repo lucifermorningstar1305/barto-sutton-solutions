@@ -9,6 +9,7 @@ dependencies = [
     "jupyterlab-ariakedark-theme>=0.2.1",
     "matplotlib>=3.10.3",
     "numpy>=2.2.5",
+    "pyqt5>=5.15.11",
     "scikit-learn>=1.6.1",
     "scipy>=1.15.3",
 ]
